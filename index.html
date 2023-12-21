@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Orchids The International School</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+   <div>
+    <nav class="navbar navbar-inverse  ">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="./images/orchids-the-international-school-logo-vector.png" alt="">
+            </a>
+           
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              
+              <li><a class="menu-item" href="#">Home</a></li>
+              <li><a href="#dvid">About us</a></li>
+              <li><a href="#dvid4">Contact</a></li>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid" >
+                <div class="register" >
+                    <div class="registration-form" >
+                      <form id="formData">
+                        <input type="text" id="parentName" placeholder="Parent Name*"> <br>
+                        <input type="text" id="Mobile" placeholder="Mobile*"><br>
+                        <input type="text"  id="Email" placeholder="Email"><br>
+                        <input type="text"  id="StudentName" placeholder="Student Name"> <br> <br>
+                        <label for="">Gender</label>
+                        <input type="radio" name="gender" value="male" onchange="setGender(event)">:Male;
+                        <input type="radio" name="gender" value="female" onchange="setGender(event)">:Female;
+                        <input type="text" id="ClassStandard" placeholder="ClassStandard"> <br> <br>
+                        <button onclick="addStudent(event)">Submit</button>
+                      </form> <br> <br>
+                    
+                    </div>
+               </div>
+      </div>
+
+   </div> <br> <br> <br><br> <br> <br> <hr>
+
+   <hr>
+ 
+   
+   <div>
+          <table class="tble" border="2px solid"  >
+            <thead style="text-align: center;" >
+              <th style="text-align: center;" >parentName</th>
+              <th style="text-align: center;" >Mobile</th>
+              <th style="text-align: center;" >Email</th>
+              <th style="text-align: center;" >StudentName</th>
+              <th style="text-align: center;" >Gender</th>
+              <th style="text-align: center;" >ClassStandard</th>
+            </thead>                    
+            <tbody id="tbdy" style="text-align: center;">
+            </tbody>
+          </table>
+
+   </div> <br> <br> <br> <hr>
+
+   <div id="dvid" >
+    
+     <div>
+      <br> <br> <br> <br>
+       <h1>Orchids The International School - Hyderabad (Cbse Board) </h1>
+       <h2>One of India's Leading CBSE Schools in Hyderabad</h2>
+       <p>Hyderabad welcomes one of the biggest chains of CBSE and ICSE. After touching more than 75,000 lives and shaping minds in at least 25 cities of the country, Orchids The International School has emerged as one of the most trusted schools, with 90+ schools in PAN India.</p>
+       <p>Students can learn joyfully at this renowned CBSE school as our teaching methodology heavily relies on a hands-on and exponential learning approach</p>
+       <p>As one of the top CBSE schools in Hyderabad, we recognize the significance of fostering students to reach their full potential. Our SHARPER philosophy, built on five essential pillars, establishes a safe haven for students to flourish. At ORCHIDS, no effort is spared in delivering top-notch amenities and individualized care, empowering students to develop their self-esteem and assurance.</p>
+      </div>
+      <div>
+        <img id="d1" src="./images/orchids-the-international-school-logo-vector.png" alt=""> <h4 id="bid" > Orchids The International School is one of India's leading chains of CBSE and ICSE schools, with 90+ schools across the country.</h4>
+      </div>
+
+   </div> <br> <br> <br>  <hr>
+
+   <div id="dvid4" href="car">
+    <div id="dvid2" >
+      <div>
+    <br> <br> <br>
+        <h1>Bengaluru</h1>
+        <h2>Orchids It Solutions Pvt Ltd.</h2>
+        <img width="20px" src="./images/locationLogo.png" alt=""> &nbsp;&nbsp; <span>World Trade Center,4th Floor,Rajaji Nagar Bengaluru,Karnataka,India</span> <br> <br>
+        <img width="20px" src="./images/mailLogo.png" alt=""> &nbsp;&nbsp; <span>info@Orchids.co</span> <br> <br>        
+        <img width="20px" src="./images/contactlogo.jpg" alt="">&nbsp;&nbsp; <span>08049019134</span> <br> 
+        <h2>Commerce Business Unit</h2>
+        <img width="20px" src="./images/locationLogo.png" alt=""> &nbsp;&nbsp; <span>IndiQube Marriot,Courtyard by Marriot,Outer Ring Road,Nagavara Hebbal,Bengakuru,Karnataka 560045</span> <br><br>
+        <img width="20px" src="./images/mailLogo.png" alt=""> &nbsp;&nbsp; <span>info@Orchids.co</span> <br> <br>        
+        <img width="20px" src="./images/contactlogo.jpg" alt="">&nbsp;&nbsp; <span>08049019134</span> <br> <br> <br>
+      </div>
+      <div>
+    <br> <br> <br>
+        <img width="250px" src="./images/bengaluru logo.png" alt="">
+      </div>
+    </div>
+     <div id="dvid3">
+        <div>
+    <br> <br> <br>
+
+          <h1>Hyderabad</h1>
+          <h2>Orchids It Solutions Pvt Ltd.</h2>
+          <img width="20px" src="./images/locationLogo.png" alt=""> &nbsp;&nbsp; <span>GAIA,Plot #9/2,HUDA Techno Enclave,Phase 2 , HITEC City,Hyderbad,Telangana 500081</span> <br> <br>
+          <img width="20px" src="./images/mailLogo.png" alt=""> &nbsp;&nbsp; <span>info@Orchids.co</span> <br> <br>        
+          <img width="20px" src="./images/contactlogo.jpg" alt="">&nbsp;&nbsp; <span>08049019134</span> <br> 
+        </div>
+        <div>
+    <br> <br> <br> 
+
+          <img width="200px" src="./images/hydLogo.jpg" alt="">
+        </div>
+     </div>
+
+   </div> <br> <br> <br> <br> <br> <br> <hr>
+
+   <div id="stddata">
+   </div>
+   <script src="./index.js"></script> <br> <br> <br>
+</body>
+</html>

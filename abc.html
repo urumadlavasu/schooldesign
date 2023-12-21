@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul id="d1"></ul>
+    </div>
+    <script>
+         var schoolStudents = [
+        {
+        studentName : 'Naruto',
+        class:'6th',
+        parentContact:'9870657786',
+        image:''
+        },
+        {
+            studentName : 'Abhi',
+            class:'5th',
+            parentContact:'9870657786',
+            image:''
+            }
+]
+  //  var stddiv = document.getElementById("stddata");
+    schoolStudents.forEach(g=>{
+       
+        var sli = document.createElement("li");
+        sli.innerHTML = g.studentName;
+        document.getElementById('d1').appendChild(sli);
+       
+    })
+    </script>
+</body>
+</html>
